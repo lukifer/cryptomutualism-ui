@@ -8,15 +8,13 @@
 // match the expected interface, even if the JSON is valid.
 
 export interface Types {
-    data: Data;
-}
-
-export interface Data {
     projects: Projects;
 }
 
 export interface PurpleAttributes {
     Name:          string;
+    Description:   null;
+    GitURL:        null;
     URL:           string;
     WhitepaperURL: null | string;
     tags:          Tags;
@@ -192,13 +190,12 @@ function r(name: string) {
 
 const typeMap: any = {
     "Types": o([
-        { json: "data", js: "data", typ: r("Data") },
-    ], false),
-    "Data": o([
         { json: "projects", js: "projects", typ: r("Projects") },
     ], false),
     "PurpleAttributes": o([
         { json: "Name", js: "Name", typ: "" },
+        { json: "Description", js: "Description", typ: null },
+        { json: "GitURL", js: "GitURL", typ: null },
         { json: "URL", js: "URL", typ: "" },
         { json: "WhitepaperURL", js: "WhitepaperURL", typ: u(null, "") },
         { json: "tags", js: "tags", typ: r("Tags") },

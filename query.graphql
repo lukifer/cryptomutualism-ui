@@ -4,6 +4,8 @@ query {
       id
       attributes {
         Name
+        Description
+        GitURL
         URL
         WhitepaperURL
         tags {

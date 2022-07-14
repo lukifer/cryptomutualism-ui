@@ -1,0 +1,62 @@
+{
+  "projects": {
+    "data": [
+      {
+        "id": "13",
+        "attributes": {
+          "Name": "1hive Gardens",
+          "Description": null,
+          "GitURL": null,
+          "URL": "https://gardens.1hive.org/#/home",
+          "WhitepaperURL": "https://1hive.gitbook.io/gardens/",
+          "tags": {
+            "data": []
+          },
+          "tokens": {
+            "data": []
+          }
+        }
+      },
+      {
+        "id": "16",
+        "attributes": {
+          "Name": "DisCO",
+          "Description": null,
+          "GitURL": null,
+          "URL": "https://disco.coop/",
+          "WhitepaperURL": "https://disco.coop/?smd_process_download=1&download_id=984",
+          "tags": {
+            "data": []
+          },
+          "tokens": {
+            "data": []
+          }
+        }
+      },
+      {
+        "id": "17",
+        "attributes": {
+          "Name": "Commons Stack",
+          "Description": null,
+          "GitURL": null,
+          "URL": "https://commonsstack.org/",
+          "WhitepaperURL": null,
+          "tags": {
+            "data": [
+              {
+                "id": "7",
+                "attributes": {
+                  "Name": "Commons Economics",
+                  "Slug": "commons-economics"
+                }
+              }
+            ]
+          },
+          "tokens": {
+            "data": []
+          }
+        }
+      }
+    ]
+  }
+}

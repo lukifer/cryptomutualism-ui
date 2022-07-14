@@ -8,7 +8,7 @@ module.exports = {
     title: 'Crypto-Mutualism',
     description: '',
     keywords: 'mutualism, socialism, anarchism, blockchain, holochain, ledgers, economics, political economy',
-    siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com',
+    siteUrl: 'https://cryptomutualism.org',
     author: {
       name: 'Lukifer',
       url: 'https://lukifer.dev',
@@ -16,21 +16,21 @@ module.exports = {
     }
   },
   plugins: [
-    'gatsby-plugin-graphql-codegen',
-    {
-      resolve: 'gatsby-source-strapi',
-      options: {
-        apiURL: process.env.API_URL || 'http://localhost:1337',
-        collectionTypes: [
-          // List of the Content Types you want to be able to request from Gatsby.
-          'project',
-          'projects',
-          'token',
-          'tokens',
-        ],
-        queryLimit: 1000,
-      }
-    },
+    // 'gatsby-plugin-graphql-codegen',
+    // {
+    //   resolve: 'gatsby-source-strapi',
+    //   options: {
+    //     apiURL: process.env.API_URL || 'http://localhost:1337',
+    //     collectionTypes: [
+    //       // List of the Content Types you want to be able to request from Gatsby.
+    //       'project',
+    //       'projects',
+    //       'token',
+    //       'tokens',
+    //     ],
+    //     queryLimit: 1000,
+    //   }
+    // },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
