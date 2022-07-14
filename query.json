@@ -1,0 +1,30 @@
+query {
+  projects {
+    data {
+      id
+      attributes {
+        Name
+        URL
+        WhitepaperURL
+        tags {
+          data {
+            id
+            attributes {
+              Name
+              Slug
+            }
+          }
+        }
+        tokens {
+          data {
+            id
+            attributes {
+              Name
+              Fungible
+            }
+          }
+        }
+      }
+    }
+  }
+}
